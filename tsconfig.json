@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitAny": false,
+
+    // Emit type information for metadata reflection API.
+    "emitDecoratorMetadata": true,
+
+    // Enable experimental support for ES decorators.
+    "experimentalDecorators": true,
+    "plugins": [
+      // Enable TSlint integration as LSP plugin
+      { "name": "typescript-tslint-plugin" },
+
+      // Enable LSP support for styled-components
+      { "name": "typescript-styled-plugin" }
+    ],
+  },
+  "include": [
+    "src/**/**/*",
+    "src/**/*",
+    "src"
+  ]
+}

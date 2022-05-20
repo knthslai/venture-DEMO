@@ -1,0 +1,9 @@
+export { default as male1 } from './male1.png';
+export { default as male3 } from './male3.png';
+export { default as male5 } from './male5.png';
+export { default as male7 } from './male7.png';
+export { default as male9 } from './male9.png';
+export { default as male2 } from './male2.png';
+export { default as male4 } from './male4.png';
+export { default as male6 } from './male6.png';
+export { default as male8 } from './male8.png';
