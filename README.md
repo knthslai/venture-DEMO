@@ -7,9 +7,8 @@
   <h1 align="center"> Venture DEMO </h1>
   <img src="screenshots/Walkthrough.gif" alt="Tablet Demo" >
   <h2 align="center"> Work in progress </h2>
-  <img src="screenshots/Banner.png" alt="Tablet Demo" >
   <p align="center">
-    Venture is an app to seamlessly run a Dungeons and Dragons campaign through a card-based system for interaction
+    Venture is an app to help seamlessly run Dungeons and Dragons campaigns with a card-based interface
     <br />
     <br />
   </p>
@@ -20,8 +19,9 @@
     <br />
   </p>
   <img src="screenshots/Characters.png" alt="Tablet Demo" >
+  <h3> Let's get to work! </h3>
   <p align="center">
-    This is where I aim to utilize my knowledge in building a web platform to create a live interactive experience between players and the dungeon master. An intuitive and user-friendly display to help start the curiosity of solving in-game puzzles and battles.
+    This is where I aim to utilize my knowledge in building a web platform to create a live interactive experience between players and the dungeon master. With an intuitive and user-friendly display to help start the curiosity of solving in-game puzzles and battles.
     <br />
     <br />
   </p>
@@ -32,8 +32,6 @@
   <div><a href="structure">Project Structure</a></div>
   <div><a href="#getting-started">Getting Started</a></div>
 </div>
-
-
 
 <div id="built-with">
   <h2>Built With</h2>
