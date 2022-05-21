@@ -4,41 +4,31 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1 align="center"> Restaurant Reviewer </h1>
-  <table>
-    <tr>
-      <td align="center">
-        Mobile
-      </td>
-      <td align="center">
-        Desktop
-      </td>
-    </tr>
-    <tr>
-     <td width="37%" align="center">
-        <a href="https://venture.web.app">
-          <img src="screenshots/Mobile_Demo.gif" alt="Tablet Demo">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://venture.web.app">
-          <img src="screenshots/Tablet_Demo.gif" alt="Tablet Demo">
-        </a>
-      </td>
-    </tr>
-  <table>
-  <h4> TopTal - Screening Project </h4>
+  <h1 align="center"> Venture DEMO </h1>
+  <img src="screenshots/Walkthrough.gif" alt="Tablet Demo" >
+  <h2 align="center"> Work in progress </h2>
+  <img src="screenshots/Banner.png" alt="Tablet Demo" >
   <p align="center">
-    A React app to review restaurants from Google Places API.
+    Venture is an app to seamlessly run a Dungeons and Dragons campaign through a card-based system for interaction
     <br />
-    <a href="https://venture.web.app"><strong>View demo site »</strong></a>
+    <br />
+  </p>
+  <h3> The problem worth solving </h3>
+  <p align="center">
+    Trying to get people willing to dive into the world of DnD is hard enough, while getting them to learn the rules, order, and limitations of their actions require even more patience and time.
+    <br />
+    <br />
+  </p>
+  <img src="screenshots/Characters.png" alt="Tablet Demo" >
+  <p align="center">
+    This is where I aim to utilize my knowledge in building a web platform to create a live interactive experience between players and the dungeon master. An intuitive and user-friendly display to help start the curiosity of solving in-game puzzles and battles.
     <br />
     <br />
   </p>
 <!-- TABLE OF CONTENTS -->
     <h3> Table of Contents </h3>
   <div><a href="#built-with">Built With</a></div>
-  <div><a href="#requirements">Requirements</a></div>
+  <div><a href="#goal">Goal</a></div>
   <div><a href="structure">Project Structure</a></div>
   <div><a href="#getting-started">Getting Started</a></div>
 </div>
@@ -51,235 +41,36 @@
     (<a href="#top">back to top</a>)
   </p>
 </div>
-
-  <table >
+<div align="center">
+  <table>
     <tr>
-      <td height="300" align="center">
-        <img src="screenshots/slideshow.gif" alt="Tablet Demo" >
+      <td align="center">
+        <img src="screenshots/React.png" alt="Reactjs" width="50px">
       </td>
       <td>
-        <table>
-          <tr>
-            <td align="center">
-              <img src="screenshots/React.png" alt="Reactjs" width="50px">
-            </td>
-            <td>
-              <a href="https://reactjs.org/">React</a>
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <img src="screenshots/Chakra-UI.png" alt="ChakraUI" width="100px">
-            </td>
-            <td>
-              <a href="https://chakra-ui.com/">Chakra-UI</a>
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <img src="screenshots/Firebase.png" alt="Firebase" width="100px">
-            </td>
-            <td>
-              <a href="https://firebase.google.com/">Firebase</a>
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <img src="screenshots/Places_API.png" alt="Places API" height="40px">
-            </td>
-            <td>
-              <a href="https://developers.google.com/maps/documentation/places/web-service/overview">Places API</a>
-            </td>
-          </tr>
-        </table>
+        <a href="https://reactjs.org/">React</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="screenshots/Chakra-UI.png" alt="ChakraUI" width="100px">
+      </td>
+      <td>
+        <a href="https://chakra-ui.com/">Chakra-UI</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="screenshots/Firebase.png" alt="Firebase" width="100px">
+      </td>
+      <td>
+        <a href="https://firebase.google.com/">Firebase</a>
       </td>
     </tr>
   </table>
-
-<br />
-<br />
-<div id="requirements">
-  <h2>Project Requirements</h2>
-  <p  align="right">
-    (<a href="#top">back to top</a>)
-  </p>
 </div>
-
-<h4> Screens </h4>
-  <div><a href="#Login">Login Page</a></div>
-  <div><a href="#Signup">Signup Page</a></div>
-  <div><a href="#List">List Page</a></div>
-  <div><a href="#Dashboard">Dashboard Page</a></div>
-<h4> Forms </h4>
-  <div><a href="#Review">Review</a></div>
-  <div><a href="#CRUD">Create/Edit</a></div>
-
-  <br />
-
-<table >
-  <tr>
-  <td align="center">
-  <h3>
-    Screens
-  </h3>
-  </td>
-  </tr>
-  <tr>
-    <td align="center" id="Login">
-      <img src="screenshots/Login_Page.png" alt="Login page" height="300px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/Login.js">Login Page</a>
-    </h3>
-      <h4> Requires </h4>
-      <ol align="left">
-        <li>  User must be able to log in. </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li>  Input validation with `yup` </li>
-        <li>  Alerts on failed login </li>
-        <li>  Suggests signup if new account </li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" id="Signup">
-      <img src="screenshots/Signup_Page.png" alt="Sign up" height="500px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/Signup.js">Signup Page</a>
-    </h3>
-    <h4> Requires </h4>
-      <ol align="left">
-        <li> User must be able to create an account </li>
-        <li> Implement 2 roles with different permission levels </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li>  Confirm password validation with `yup` </li>
-        <li>  Alerts on email already in use </li>
-        <li>  Navigate back to `/login` </li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" id="List">
-      <img src="screenshots/User_Restaurants_Page.png" alt="List Restaurant Page" width="400px">
-      <img src="screenshots/User_Reviews_page.png" alt="List Reviews Page" width="400px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/List/List.js">List Page (User view)</a>
-    </h3>
-    <h4> Requires </h4>
-      <ol align="left">
-        <li> Can rate and leave a comment for a restaurant </li>
-        <li> When a Regular User logs in he will see a Restaurant List ordered by Rate Average </li>
-        <li>When a restaurant is selected, a detailed view should be presented showing:
-          <ol>
-            <li>The overall average rating</li>
-            <li>The highest rated review</li>
-            <li>The lowest rated review</li>
-            <li>Latest review showing with rate and comment</li>
-          </ol>
-        </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li> Additional sort options </li>
-        <li> Additional fuzzy search by name with `fuze.js` </li>
-        <li> On no reviews yet, call to action applied to add new review button </li>
-        <li> On New reviews, live updates to new average rating for restaurant </li>
-        <li> Additional tab to view the current user's reviews </li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" id="Dashboard">
-      <img src="screenshots/Admin_Reviews_Page.png" alt="Admins page" width="400px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/Dashboard/Dashboard.js">Dashboard Page (Admin view)</a>
-    </h3>
-    <h4> Requires </h4>
-      <ol align="left">
-        <li> Admin: Can add/edit/delete:
-          <ol>
-            <li>Restaurants</li>
-            <li>Users</li>
-            <li>Reviews</li>
-          </ol>
-        </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li> Search locally for restaurants through Google Places API </li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-  <td align="center">
-  <h3>
-    Forms
-  </h3>
-  </td>
-  </tr>
-  <tr>
-    <td align="center" id="Review">
-      <img src="screenshots/Add_Review.png" alt="Add review" width="400px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/List/Tabs/UserDrawer.js">Add Review (User)</a>
-    </h3>
-    <h4> Requires </h4>
-      <ol align="left">
-        <li> Reviews should have:
-          <ol>
-            <li>A 5 star based rate</li>
-            <li>Date of the visit</li>
-            <li>Comment</li>
-          </ol>
-        </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li> Handles updating restaurant's new average rating </li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" id="CRUD">
-      <img src="screenshots/Edit_Restaurant.png" alt="Edit restaurant" width="400px">
-      <img src="screenshots/Edit_Review.png" alt="Edit review" width="400px">
-      <img src="screenshots/Add_Restaurant.png" alt="Add Restaurant" width="400px">
-    </td>
-    <td align="center">
-    <h3>
-      <a href="https://git.toptal.com/screening/Kenneth-Lai/-/blob/master/src/screens/List/Tabs/UserDrawer.js">CRUD Forms (Admin)</a>
-    </h3>
-    <h4> Requires </h4>
-      <ol align="left">
-        <li> Reviews should have:
-          <ol>
-            <li>A 5 star based rate</li>
-            <li>Date of the visit</li>
-            <li>Comment</li>
-          </ol>
-        </li>
-      </ol>
-      <h4> Edge cases</h4>
-      <ol align="left">
-        <li> Handles updating restaurant's new average rating </li>
-      </ol>
-    </td>
-  </tr>
-</table>
-
+<br />
+<br />
 
 <div id="structure">
   <h2>Project Structure</h2>
@@ -312,6 +103,9 @@
 Install NPM packages
 ### `npm install` or `yarn`
 #### Step 2:
+Run local firebase servers
+### `npm run servers` or `yarn servers`
+#### Step 3:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `npm start` or `yarn start`
