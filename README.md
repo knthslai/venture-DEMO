@@ -28,8 +28,7 @@
 <!-- TABLE OF CONTENTS -->
     <h3> Table of Contents </h3>
   <div><a href="#built-with">Built With</a></div>
-  <div><a href="#goal">Goal</a></div>
-  <div><a href="structure">Project Structure</a></div>
+  <div><a href="#structure">Project Structure</a></div>
   <div><a href="#getting-started">Getting Started</a></div>
 </div>
 
